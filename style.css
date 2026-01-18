@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  color: #222;
+  line-height: 1.6;
+}
+
+#hero {
+  background: #0f172a;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 10px;
+  color: #cbd5e1;
+}
+
+.cta {
+  margin-top: 30px;
+}
+
+.cta a {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: #000;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #0f172a;
+  font-weight: bold;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.grid span {
+  background: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+.date {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #e5e7eb;
+}
+
