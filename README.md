@@ -4,6 +4,10 @@ A responsive personal portfolio website built with plain HTML, CSS, and JavaScri
 
 ## Live Site
 
+[LinkedIn Profile](www.linkedin.com/in/srijit-tn)
+
+## Live Site
+
 [https://srijittn.github.io](https://srijittn.github.io)
 
 ## Files
